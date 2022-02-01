@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Minton - Responsive Admin Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+        <style>
+            .button-hover:hover{
+                background-color: #2EBCEF ;
+            }
+
+            .logout-button:hover{
+                background-color: #d43131;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar-->
+        <header id="topnav" style="width: 49.625rem; height: 4.375rem; ">
+
+            <!-- Topbar Start -->
+            <div class="navbar-custom" style="background-color:#5f4dee " >
+                <div class="container-fluid">
+                    <ul class="list-unstyled topnav-menu float-right mb-0">
+
+                        <li class="dropdown notification-list">
+                            <!-- Mobile menu toggle-->
+                            <a class="navbar-toggle nav-link">
+                                <div class="lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <!-- End mobile menu toggle-->
+                        </li>
+<!-- 
+                        <li class="d-none d-sm-block">
+                            <form class="app-search">
+                                <div class="app-search-box">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search...">
+                                        <div class="input-group-append">
+                                            <button class="btn" type="submit">
+                                                <i class="fe-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </li> -->
+
+                       
+            
+                        <li class="dropdown notification-list">
+                            <a class="nav-link dropdown-toggle  waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <i class="fe-bell noti-icon"></i>
+                                <!-- <span class="badge badge-danger rounded-circle noti-icon-badge"></span> -->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+
+                                <!-- item-->
+                                <div class="dropdown-item noti-title">
+                                    <h5 class="m-0">
+                                        <span class="float-right">
+                                            <a href="" class="text-dark">
+                                                <small>Clear All</small>
+                                            </a>
+                                        </span>Notification
+                                    </h5>
+                                </div>
+
+                                <div class="slimscroll noti-scroll">
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                        <div class="notify-icon text-primary" style="background-color:#5f4dee;">
+                                            <!-- <i class="mdi mdi-comment-account-outline"></i> -->
+                                            <img align="center" src="./assets/images/notification-icon.png" alt="" height="17";>
+                                        </div>
+                                        <p class="notify-details">BlokFin'e hoşgeldiniz! <br>
+                                        Kullanıcı isminize tıklayarak <br>size yardımcı olabilecek kaynaklara <br> ulaşabilirsiniz.
+                                            <small class="text-muted">1 min ago</small>
+                                        </p>
+                                    </a>
+
+                              
+                                </div>
+
+                                <!-- All-->
+                                <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                    View all
+                                    <i class="fi-arrow-right"></i>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="dropdown notification-list">
+                            <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/blokfin_profili_1.png" alt="user-image" class="rounded-circle">
+                                <span class="pro-user-name ml-1">
+                                    Elizaveta G. <i class="mdi mdi-chevron-down"></i>
+                                </span>
+                            </a>
+                           
+                        </li>            
+
+                        <li class="dropdown notification-list">
+                            <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect waves-light">
+                                <i class="fe-settings noti-icon"></i>
+                            </a>
+
+                            <!-- <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                                <span class="pro-user-name ml-1">
+                                    Nik Patel <i class="mdi mdi-chevron-down"></i>
+                                </span>
+                            </a> -->
+                        </li>
+
+                    </ul>
+
+                    <!-- LOGO -->
+                    <div class="logo-box">
+                        <a href="index.html" class="logo text-center">
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-blokfin.png" alt="" height="40">
+                                <!-- <span class="logo-lg-text-light">Xeria</span> -->
+                            </span>
+                            <span class="logo-sm">
+                                <!-- <span class="logo-sm-text-dark">X</span> -->
+                                <img src="assets/images/logo-sm.png" alt="" height="24">
+                            </span>
+                        </a>
+                    </div>
+
+                   
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- end Topbar -->
+
+            
+            <!-- end navbar-custom -->
+
+        </header>
+        <!-- End Navigation Bar-->
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="wrapper" style="width:100rem; height:40rem">
+            <div class="container-fluid" style="width: 100%; height: 100%; margin: 0; margin-top: -4rem; margin-bottom: -4rem; margin-right: 10rem; "  >
+
+                <div style="width: 25%; height: 52rem; ; display: inline-block; margin-top: -5rem; margin-left: -1.5rem;  border-width: 4px;  border-right-style: solid; border-color: black; "></div>
+                <div style="width: 38%; height: 52rem; ; display: inline-block; margin-right: -0.25rem; margin-left: -0.25rem; border-width: 4px; border-right-style: solid; border-color: black;"></div>
+                <div style="width: 37%; height: 52rem; display: inline-block; margin-right: -1.5rem;">
+                    <div style="width: 100%; height: 26rem; border-width: 4px; border-bottom-style: solid; border-color: black;"></div>
+                    <div style="width: 100%; height: 26rem;"></div>
+                </div>
+            
+
+
+
+                
+
+            </div> <!-- end container -->
+        </div>
+        <!-- end wrapper -->
+
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+    
+        <!-- Footer Start -->
+      
+        <!-- end Footer -->
+
+        <!-- Right Sidebar -->
+        <div class="right-bar">
+            <div class="rightbar-title" style="background-color: #5f4dee;">
+                <a href="javascript:void(0);" class="right-bar-toggle float-right">
+                    <i class="fe-x noti-icon"></i>
+                </a>
+                <h5 class="m-0 text-white">Settings</h5>
+            </div>
+           
+            <div class="slimscroll-menu">
+                <!-- User box -->
+                <div class="user-box">
+                    <div class="user-img">
+                        <img src="assets/images/blokfin_profili_1.png" alt="user-img" title="Mat Helme" class="rounded-circle img-fluid">
+                        <a href="javascript:void(0);" class="user-edit"><i class="mdi mdi-pencil"></i></a>
+                    </div>
+            
+                    <h5><a href="javascript: void(0);">Elizaveta G.</a> </h5>
+                    <p class="text-muted mb-0"><small>Trial Account</small></p>
+                </div>
+ 
+      
+                <div class="tab-content pl-3 pr-3">
+                    <div class="tab-pane show active" id="home1">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="m-0 font-15">Nasıl Kullanmalıyım?</h5>
+                               
+                            </div> <!-- end col-->
+                            <div class="col-auto">
+                                <div class="custom-control custom-switch mb-2">
+                             
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row-->
+
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="m-0 font-15">Kodlarım</h5>
+                                
+                            </div> <!-- end col-->
+                            <div class="col-auto">
+                                <div class="custom-control custom-switch mb-2">
+                                   
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row-->
+
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="m-0 font-15">Ödemelerim</h5>
+                               
+                            </div> <!-- end col-->
+                            <div class="col-auto">
+                                <div class="custom-control custom-switch mb-2">
+                                 
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row-->
+
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h5 class="m-0 font-15">Hakkında</h5>
+                             
+                            </div> <!-- end col-->
+                            <div class="col-auto">
+                                <div class="custom-control custom-switch mb-2">
+                                   
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row-->
+
+                        <div class="alert alert-success alert-dismissible fade mt-3 show" role="alert" style="background-color: #C1EDFF;">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <h5>Planını Yükselt</h5>
+                            Örnek kodlar ve özel yazılım desteğiyle hayalindeki kodu yaratmaya bir adım uzaktasın.
+                            <br/>
+                            <a href="javascript: void(0);" class="btn btn-outline-success mt-3 btn-sm button-hover" >Planları görüntüle<i class="ml-1 mdi mdi-arrow-right"></i></a>
+                        </div>
+
+                        <div class="alert alert-success alert-dismissible fade mt-3 show" role="alert" >
+                           
+                            </button>
+                            <h5>Aklınıza Takılan Bir Şey Mi Var?</h5>
+                            Her an sizin için buradayız. Mesajınızı bırakın, 24 saat içinde size ulaşalım.
+                            <br />
+                            <a href="javascript: void(0);" class="btn btn-outline-success mt-3 btn-sm">Destek al<i
+                                    class="ml-1 mdi mdi-arrow-right"></i></a>
+                        </div>
+                
+                    </div>
+                    
+                 
+                </div>
+
+<a href="javascript: void(0);" style="width: 97%; height: 6.2%; text-align: center; padding: auto; margin-bottom: 0.1rem;" class="btn btn-outline-danger mt-3 btn-sm logout-button">Çıkış Yap<i
+        class="ml-1 mdi mdi-arrow-right"></i></a>
+               
+
+            </div> <!-- end slimscroll-menu-->
+
+       
+
+        
+
+
+
+
+        </div>
+        <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>
